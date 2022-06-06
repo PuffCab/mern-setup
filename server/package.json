@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend for MERN project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon server.js\" \"cd ../client && npm start\"",
+    "foo": "nodemon server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuffCab/mern-setup.git"
+  },
+  "author": "Rhm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PuffCab/mern-setup/issues"
+  },
+  "homepage": "https://github.com/PuffCab/mern-setup#readme",
+  "dependencies": {
+    "concurrently": "^7.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  }
+}
