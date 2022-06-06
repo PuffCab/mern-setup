@@ -10,7 +10,7 @@ router.get("/all", (req, res) => {
     .then((files) => {
       res.send(files);
     })
-    .catch((err) => console.log(err));
+    .catch((error) => console.log(error));
 });
 
 export default router;
